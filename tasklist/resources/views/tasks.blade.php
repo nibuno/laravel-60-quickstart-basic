@@ -57,7 +57,9 @@
                                 @foreach ($tasks as $task)
                                     <tr>
                                         <td class="table-text">
+                                            <!-- TODO:投稿者 -->
                                             <div>{{ $task->name }}</div>
+                                            <div>投稿時間:{{ $task->created_at }}</div>
                                         </td>
                                         <!-- 削除ボタン -->
                                         <td>
